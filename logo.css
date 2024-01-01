@@ -1,0 +1,48 @@
+
+#social-hover li{margin: 5px}
+  
+#social-hover a{
+font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+width: 40px;
+transition:width 0.4s;
+-webkit-transition:width 0.4s;
+-moz-transition:width 0.4s;
+}
+#social-hover a:hover{
+width: 115px;
+}
+#social-hover ul, #top-menu ul { margin: 0; }
+#social-hover li,
+#social-hover li a,
+#social-hover li .ts-icon,
+#social-hover li .ts-text {
+display: block;
+position: relative;
+width: 40px;
+height: 40px;
+}
+#social-hover li,
+#social-hover li a,
+#social-hover li .ts-text {
+float: left;
+width: auto;
+overflow: hidden;
+}
+#social-hover li a {
+width: 40px;
+line-height: 40px;
+color: #FFF;
+font-size: 12px;
+font-weight: bold;
+text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+#social-hover li.ts-rss a { background-color: #F88F16; }
+#social-hover li.ts-rss .ts-icon { background: url("https://lh6.googleusercontent.com/-oQGmKZI7eJs/UlLJ-4f81II/AAAAAAAACV4/F3IcLsUKqsY/s16/rss.png") no-repeat center center; }
+#social-hover li .ts-icon { float: left; }
+#social-hover li.ts-facebook a { background-color: #3B5998; }
+#social-hover li.ts-facebook .ts-icon { background: url("https://lh6.googleusercontent.com/-EcJsEGuE1QA/UlLJ-nbtGOI/AAAAAAAACVs/dizwfAR_0KU/s16/facebook.png") no-repeat center center; }
+#social-hover li.ts-twitter a { background-color: #3CF; }
+#social-hover li.ts-twitter .ts-icon { background: url("https://lh6.googleusercontent.com/-k9dXtRP_KG4/UlLJ_VpWtJI/AAAAAAAACWA/fsGPNo1tkjw/s16/twitter.png") no-repeat center center; }
+#social-hover li.ts-gplus a { background-color: #BD3518; }
+#social-hover li.ts-gplus .ts-icon { background: url("https://lh6.googleusercontent.com/-zwl2BMOWHWs/UlLJ-yjUF_I/AAAAAAAACWE/2z5vF-txseA/s16/gplus.png") no-repeat center center; }
+  
